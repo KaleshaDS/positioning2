@@ -1,0 +1,44 @@
+.rojo{
+	background-color: red;
+}
+.morado{
+	background-color: purple;
+}
+.amarillo{
+	background-color: yellow;
+}
+.azul{
+	background-color: blue;
+}
+.verde{
+	background-color: green;
+}
+.negro{
+	background-color: black;
+}
+.padre{
+	width: 200px;
+	height:200px; 
+	position: static;
+	margin:50px;
+}
+.hijo{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top:50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+}
+.nieto{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+.hijopeke{
+    width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: -100px;
+}
